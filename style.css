@@ -1,0 +1,117 @@
+/* This will style the body element */
+body{
+
+    /* "Department of Coffee and Social Affairs" By Michael Dales is liscened under CC BY-NC 2.0*/
+    background-image: url(images/departmentOfCoffee.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* This will syle the wrapper class to center the content */
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This will syle the header where the logo will go */
+header{
+background-color: blue;  
+}
+
+.logoImage{
+    height: 118px; ;
+}
+
+/* This will style the nav box */
+nav{
+    /* Background Color */
+    min-height: 40px;
+    min-height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Style the links to other pages in the nav and link to pPrtledge website */
+a{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* This will style the main */
+main{
+    /* Background Color */
+    min-height: 40px;
+    text-align: center;
+    padding-top: 240px;
+    padding-left: 240px;
+    padding-right: 240px;
+    color: antiquewhite;
+
+}
+
+main h1{
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+/* So this set font size to 50 px change the color to white 
+pick font family of choice add a text shadow */
+main h2{
+font-size: 50px;
+color: antiquewhite
+font
+}
+/* Do this set size to 18px change the color to rgba(249,1193,1) */
+/* change the font family and also add a text shadow */
+
+h2{
+
+}
+
+p{
+    font-size: 18px;
+    background-color: rgba(226, 157, 27, 0.377);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 10px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+/* Compound selector- target only links inside of the nav=  */
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+footer{
+    color: antiquewhite;
+    background-color: blue;
+    min-height: 75px;
+
+}
+.map{
+    text-align: center;
+    padding: 40px;
+    
+
+}
+.myButton{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: solid black;
+    margin-top: 32px;
+    background-color: aqua;
+    color: blueviolet;
+    border-radius: 20px;
+}
+
+footer p{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px;}
